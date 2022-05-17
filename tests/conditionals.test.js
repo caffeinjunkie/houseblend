@@ -30,4 +30,12 @@ describe('Conditionals', () => {
 
     expect(result).toBeTruthy();
   });
+
+  it('should return false if object is undefined', () => {
+    const value = undefined;
+
+    const result = isNull(value);
+
+    expect(result).toBeFalsy();
+  });
 });

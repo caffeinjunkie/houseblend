@@ -24,9 +24,9 @@ A collection of simple Conditionals, all of which merely return `true` / `false`
 ```javascript
 const { isNull } = require('@caffeinjunkie/houseblend');
 
-isObject({}); // true
+isObject({ value: 'something'}); // false
 isObject({}); // false
-isObject(null); // false, although typeof null is 'object'
+isObject(null); // true
 isObject(undefined); // false
 
 ```
