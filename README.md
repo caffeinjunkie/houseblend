@@ -1,5 +1,5 @@
 # houseblend
-Utilities for Jenius 2 Micro-services, Modules, and Clients.
+houseblend is a collection of useful conditionals and utils to help you jump start your projects.
 
 ## Table of Contents
 
