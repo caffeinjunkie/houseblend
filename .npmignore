@@ -1,0 +1,8 @@
+coverage/
+.editorconfig
+.eslintrc
+.gitconfig
+.gitignore
+.gitlab-ci.yml
+jest.json
+makefile
