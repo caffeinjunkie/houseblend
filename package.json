@@ -8,8 +8,6 @@
   },
   "scripts": {
     "start": "node ./src/main.js",
-    "format": "make format",
-    "precommit": "make format",
     "lint": "eslint src",
     "lint:fix": "eslint src --fix",
     "test": "jest --coverage",
