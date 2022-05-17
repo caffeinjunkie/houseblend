@@ -13,7 +13,6 @@
     "test": "jest --coverage",
     "test:coverage": "jest --coverage",
     "release": "npm run test && standard-version",
-    "docs": "jsdoc2md --files 'lib/*.js' 'lib/*/*.js' --template readme-template.hbs > README.md",
     "prerelease": "standard-version --prerelease alpha"
   },
   "repository": {
@@ -31,7 +30,6 @@
   "devDependencies": {
     "eslint": "^6.6.0",
     "jest": "^20.0.4",
-    "jsdoc-to-markdown": "^6.0.1",
     "prettier-eslint-cli": "^4.2.0",
     "standard-version": "^4.3.0"
   }
