@@ -24,10 +24,10 @@ A collection of simple Conditionals, all of which merely return `true` / `false`
 ```javascript
 const { isNull } = require('@caffeinjunkie/houseblend');
 
-isObject({ value: 'xx'}); // false
-isObject({}); // false
-isObject(null); // true
-isObject(undefined); // false
+isNull({ value: 'xx'}); // false
+isNull({}); // false
+isNull(null); // true
+isNull(undefined); // false
 
 ```
 
